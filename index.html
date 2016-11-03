@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="listApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Repeating lists</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-controller="listCtrl">
+        <h2 ng-repeat="elem in marvel">{{elem}}</h2>
+        <ul>
+            <li ng-repeat="elem in arr">{{elem}}</li>
+        </ul>
+        <div ng-controller="varCtrl">
+        	<p>{{myvar}}</p>
+        	<h1>{{myvar}}</h1>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>

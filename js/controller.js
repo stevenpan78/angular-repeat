@@ -1,0 +1,1 @@
+angular.module("listApp",[]).controller("listCtrl",function(r){r.marvel=["Gamma Crush","Magnetic Shockwave","Proton Cannon","Laser Beam"],r.arr=["Wolverine","Professor Xavier","Spidey","Green Lantern"]}).controller("varCtrl",function(r){r.myvar="google"});
